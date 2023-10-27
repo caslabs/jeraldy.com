@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import { Footer } from "./components/footer";
 
 const navigation = [
 	{ name: "Projects", href: "/projects" },
@@ -65,6 +66,7 @@ export default function Home() {
 					at night.
 				</h2>
 			</div>
+			<Footer />
 		</div>
 	);
 }
