@@ -45,7 +45,7 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 mx-6">
-					Hi, my name is jeraldy, I'm an aspiring software engineer and I like to write about AI research at
+					Hi, my name is jeraldy (he/him), I'm an aspiring software engineer and I like to write about AI research at
 					{" "}
 					<Link
 						target="_blank"
