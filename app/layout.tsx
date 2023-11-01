@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 		default: "jeraldy.com",
 		template: "%s | jeraldy.com",
 	},
-	description: "Software engineer @ metaverse",
+	description: "Aspiring Software Engineer",
 	openGraph: {
 		title: "jeraldy.com",
 		description:
-			"Software engineer @ metaverse",
+			"Aspiring Software Engineer",
 		url: "https://jeraldy.com",
 		siteName: "jeraldy.com",
 		images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "caslabs",
+		title: "caslabs_ai",
 		card: "summary_large_image",
 	},
 	icons: {
