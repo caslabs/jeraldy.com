@@ -46,7 +46,14 @@ export default async function ProjectsPage() {
 						Projects
 					</h2>
 					<p className="mt-4 text-zinc-400">
-						Some of the projects are from work and some are on my own time.
+						Technical details of my projects, including the code, are available on{" "}
+						<Link
+						target="_blank"
+						href="https://github.com/caslabs"
+						className="underline duration-500 hover:text-zinc-300"
+					>
+						github.com/caslabs
+					</Link>
 					</p>
 				</div>
 				<div className="w-full h-px bg-zinc-800" />
