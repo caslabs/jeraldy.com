@@ -1,15 +1,20 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Particles from "./components/particles";
 import { Footer } from "./components/footer";
+import dynamic from 'next/dynamic';
+import { WiredInStatus } from "./components/WiredInStatus";
 
 const navigation = [
 	{ name: "Projects", href: "/projects" },
 ];
 
+
+
 export default function Home() {
 	return (
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+			<WiredInStatus status="ONLINE" startTime={new Date()} />
 			<nav className="my-16">
 				<ul className="flex flex-wrap items-center justify-center gap-4">
 					{navigation.map((item) => (
