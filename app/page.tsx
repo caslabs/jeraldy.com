@@ -55,7 +55,10 @@ export default function Home() {
 
 			<div className="my-16 text-center">
 				<h2 className="text-sm text-zinc-500 mx-6">
-					Hi, my name is jeraldy (he/him), I'm an aspiring software engineer and I like to write about AI research at
+					Hi, my name is jeraldy (he/him), I'm an aspiring software engineer who loves to build reliable, scalable, and maintainable systems.
+				</h2>
+				<h2 className="text-sm text-zinc-500 mx-6">
+				Techical writer @
 					{" "}
 					<Link
 						target="_blank"
@@ -65,7 +68,7 @@ export default function Home() {
 						caslabs.ai
 					</Link>
 
-					<wbr /> and working on{" "}
+					<wbr /> and {" "}
 					<Link
 						target="_blank"
 						href="https://simulacrae.com"
@@ -73,7 +76,6 @@ export default function Home() {
 					>
 						simulacrae.com
 					</Link>{" "}
-					(VR/AR/Metaverse) at night.
 				</h2>
 
 
@@ -81,7 +83,7 @@ export default function Home() {
 					<Link href="/contact"
 					className="px-6 py-3 text-lg font-bold text-white bg-transparent border-2 border-white rounded-full hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-300 shadow-lg backdrop-blur-md bg-opacity-20 backdrop-brightness-150 hover:shadow-xl">
 
-        Contact Me
+        Hire Me
 </Link>
 
 			</div>
