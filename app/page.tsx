@@ -58,7 +58,7 @@ export default function Home() {
 					Hi, my name is jeraldy (he/him), I'm an aspiring software engineer who loves to build reliable, scalable, and maintainable systems.
 				</h2>
 				<h2 className="text-sm text-zinc-500 mx-6">
-				Techical writer @
+				Technical writer @
 					{" "}
 					<Link
 						target="_blank"
