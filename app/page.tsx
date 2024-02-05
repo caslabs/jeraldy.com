@@ -83,7 +83,7 @@ export default function Home() {
 					<Link href="/contact"
 					className="px-6 py-3 text-lg font-bold text-white bg-transparent border-2 border-white rounded-full hover:border-blue-500 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-300 shadow-lg backdrop-blur-md bg-opacity-20 backdrop-brightness-150 hover:shadow-xl">
 
-        Hire Me
+        Contact Me
 </Link>
 
 			</div>
