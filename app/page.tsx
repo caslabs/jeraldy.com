@@ -57,6 +57,21 @@ export default function Home() {
 				<h2 className="text-sm text-zinc-500 mx-6">
 					Hi, my name is jeraldy (he/him), I'm an aspiring software engineer who loves to build reliable, scalable, and maintainable systems.
 				</h2>
+
+				<h2 className="text-sm text-zinc-500 mx-6">
+				Student Coordinator + Teaching Assistant @
+					{""}
+					<Link
+						target="_blank"
+						href="https://ai-4-all.org/"
+						className="underline duration-500 hover:text-zinc-300"
+					>
+						AI4ALL
+					</Link>
+
+					<wbr />
+				</h2>
+
 				<h2 className="text-sm text-zinc-500 mx-6">
 				Technical writer @
 					{" "}
@@ -77,6 +92,8 @@ export default function Home() {
 						simulacrae.com
 					</Link>{" "}
 				</h2>
+
+
 
 
 			<div className="flex justify-center mt-10">
