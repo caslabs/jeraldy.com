@@ -60,7 +60,7 @@ export default function Home() {
 
 				<h2 className="text-sm text-zinc-500 mx-6">
 				Student Coordinator + Teaching Assistant @
-					{""}
+					{" "}
 					<Link
 						target="_blank"
 						href="https://ai-4-all.org/"
