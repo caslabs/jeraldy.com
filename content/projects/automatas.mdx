@@ -1,0 +1,82 @@
+---
+title: Automata
+description: The Invisible Machines
+repository: caslabs/jeraldy.com
+url: https://jeraldy.com
+date: 2024-01-01
+published: true
+---
+
+# Chronology of the Invisible Machines
+
+Historically, automata was used to describe mechanical machines that performed predefined tasks, often mimicking human or animal behaviors. These were typically clockwork devices.
+Heron of Alexandria, a Greek-Egyptian mathematician and inventor of the Ancient Greeces, is credited with creating some of the earliest known automata. An automated water-powered temple door, powered by a fire altar and an eloquent hydraulic system,
+a machine that was capable of self-operations. Then came the Medieval and Renaissance periods, where automata were used for entertainment. Mechanical figures (like Jacques de Vaucanson's famous Digesting Duck or clockwork figures in cathedrals)
+were built to display the engineering and philosophical marvels of its time to explore life and motion. Later, during the 18-19th century, automatas gained prominence with highly intricate machines, such as music-playing dolls or mechanical birds,
+created as entertainment or art.
+
+It is not the 20th century where civilization began the transition from viewing automata as mechanical and artistical feats to analyzing them mathematically and theoretically  marking a shift from engineering artistry to formal computational models.
+This transformation has its roots in earlier eras, coinciding with the rise of the philosophy of science during the Scientific Revolution, when thinkers like Galileo and Descartes emphasized the use of formalism, mathematics, and logic to uncover the underlying
+principles of nature. Over centuries, this critical analytical mindset deepened, evolving through the Enlightenment’s embrace of rationality and abstraction, eventually converging in the 20th century as the tools of logic and computation matured into rigorous frameworks like automata theory.
+
+# The Invisible Machines
+
+The mathematicians began creating—both in theory and in practice— machines designed to replicate specific human capabilities, performing calculations with greater speed and accuracy than ever before.
+The term **automaton**, closely associated with "automation," refers to self-operating processes designed to execute specific tasks. Automata theory examines the logic of computation through abstract mathematical models known as automata. This field enables computer scientists to investigate the mechanisms by which machines compute functions, solve problems, and, most profoundly, define the boundaries of what it means for a function to be computable or for a question to be decidable.
+
+Automata is described as abstract machines that can perform computations. They are used in various fields, including computer science, mathematics, and physics.
+When we define abstract, we can essentially define the formulae and dynamics on paper, and calculate the results without the need for a physical machine.
+They are conceptual models that perform computations without requiring physical realization. They exist as formal mathematical constructs and can be defined entirely on paper (or computationally simulated) through states, transitions, and rules of behavior.
+We worry not the physical manifestation and eloquent engineering of the machine, but the logical and mathematical properties of the machine. We assume that the physical properties of the machine are irrelevant to the computation it performs.
+At their core, automata are abstract ‘machines’ that read input symbols one at a time, transition between internal states according to fixed rules, and finally decide whether to accept or reject the input—capturing, in a streamlined way, the essence of how any computational process moves from unprocessed data to a definitive outcome.
+
+I call them 'Invisible Machines' as they do not pertain to anything visible. Every physical machine has an 'invisible machine' that operates beneath the surface, defined by abstract rules, state transitions, and logical processes. These invisible machines are the mathematical blueprints governing how inputs are processed, decisions are made, and outputs are produced, enabling us to understand and predict the behavior of their physical counterparts.
+They are the unseen architects of computation, the silent mechanisms of life.
+
+
+## Mathematical Description of an Automaton
+
+An **automaton** can be formally defined as a 5-tuple:
+
+$$
+A = (Q, \Sigma, \delta, q_0, F)
+$$
+
+Where:
+- **\( Q \)**: A finite set of states.
+- **\( \Sigma \)**: A finite set of input symbols, known as the alphabet.
+- **\( \delta \): Q \times \Sigma \to Q**: A transition function that defines the state transitions.
+- **\( q_0 \in Q \)**: The initial state.
+- **\( F \subseteq Q \)**: A set of accepting or final states.
+
+### Explanation
+1. **States (\( Q \))**: Represent different configurations or conditions of the automaton.
+2. **Alphabet (\( \Sigma \))**: Represents the set of symbols the automaton can process as input.
+3. **Transition Function (\( \delta \))**: Defines the rules for moving from one state to another based on the current state and an input symbol.
+4. **Initial State (\( q_0 \))**: The starting point of the automaton when computation begins.
+5. **Accepting States (\( F \))**: States in which the automaton halts and accepts the input.
+
+The major objective of automata theory is to develop methods by which computer scientists can describe and analyze the dynamic behavior of discrete systems, in which signals are sampled periodically. The behavior of these discrete systems is determined by the way that the system is constructed from storage and combinational elements.
+Automata theory serves as the backbone for systems that process inputs, transition through states, and produce outputs, making it indispensable across a wide range of applications. In **compiler design**, finite automata scan streams of code symbols, transitioning between states to validate syntax and tokenize programming languages. In **digital circuits**, automata guide sequential logic, where inputs like clock signals trigger state transitions to manage storage and computation. **Network protocols** rely on automata to ensure consistent stateful communication, processing packets and guaranteeing
+ reliable data transfer. In **speech processing**, automata model phoneme sequences, transitioning through states to recognize or synthesize language patterns. Even in **video games**, finite-state machines define character behavior, where specific inputs like player actions trigger changes in states such as idle, attack, or flee. Across these domains, automata provide a consistent, predictable framework to process discrete inputs, transition logically between states, and deliver reliable results—a mechanism as versatile as it is foundational.
+
+Automata theory is fundamentally about studying the Input-Process-Output (IPO) cycle in computational systems. Automata take in sequences of symbols (from an "alphabet") as input. These inputs could represent anything—text, signals, user commands, or even packets in a network, the inputs are then process by transitions between internal states according to predefined transition rules. The processing is deterministic (or non-deterministic) and reflects how the system "interprets" or "reacts" to the input sequence, and lastly produces an output—often a binary decision, such as "accept" or "reject"—to determine whether the input meets specific criteria (e.g., a valid string in a language, a correct syntax, or a successful pattern match).
+This model provides us a rigorous framework to analyze and design systems that compute functions, solve problems, and validate processes consistently.
+Such rigor allow us to have a high predictive power as formalization allows us to determine how a system will respond to any given input. For example, finite automata can precisely identify whether a string belongs to a language, ensuring that the system behaves as expected.
+Not only so, but also error detection,  we can systematically identify potential errors, ambiguities, or edge cases that might occur in a system, such as deadlocks in communication protocols or invalid transitions in software.
+
+# History of the Invisible Machine
+
+The four major families of automata—finite-state machines, pushdown automata, linear-bounded automata, and Turing machines—can be understood as a hierarchy of computational power, with the finite-state machine as the simplest and the Turing machine as the most complex. Each level builds upon the capabilities of the previous, introducing additional features like memory and broader scope for processing inputs. Notably, a Turing machine encompasses the finite-state machine, yet the inverse does not hold true, highlighting the progression from finite, limited processing to the theoretical infinity of Turing's model. I will focus on the two ends of this spectrum: the finite-state machine, representing fundamental computation, and the Turing machine, embodying the full breadth of what is computationally possible.
+
+One interesting fact about these families is that Turing machines were conceptualized before finite-state machines. Naturally, we tend to think in a bottom-up progression—starting with simpler constructs and building toward complexity. However, history defies this expectation, as Alan Turing’s 1936 formulation of the Turing machine, the most powerful model of computation, preceded the formalization of finite-state machines, which are simpler and more restrictive. A Turing machine can be thought of as a simplified version of a modern computer. At its core, it’s like a basic control unit (similar to a computer's processor) paired with an infinite strip of tape that acts as its memory. This tape is divided into individual cells, each capable of holding a symbol, and the machine can read, write, or erase these symbols as it processes instructions. The tape allows the Turing machine to store information and "remember" things as it computes. Essentially, the Turing machine is an abstract model that mirrors how computers execute programs and store data. It was created to provide a clear, mathematical way of defining what it means for a process to be an algorithm—essentially, a step-by-step method for solving a problem.
+This automaton was born out of necessity, designed to address the **Entscheidungsproblem**—a fundamental question posed by mathematician David Hilbert, which asked whether there exists a definitive method to determine the truth or falsehood of any given mathematical statement within a formal system. Alan Turing's groundbreaking Turing machine provided a framework to formalize the concept of computation and algorithms, demonstrating not only how such procedures could be defined but also that some problems are inherently undecidable, meaning no algorithm could ever solve them. This insight laid the foundation for modern computer science, reshaping how we understand the limits and possibilities of computation.
+
+The Finite State Machine (FSM) is one of the earliest formal models used to represent state-driven processes, which can loosely align with certain aspects of human thought or decision-making. An interdisciplinary team of biologists, psychologists, mathematicians, engineers, and some of the first computer scientists sought to model state-driven processes to better understand and simulate both natural and artificial systems - specifically, the human thought process. Warren McCulloch and Walter Pitts, two neurophysiologists, were the first to present a description of finite automata in 1943 with their paper - "A Logical Calculus Immanent in Nervous Activity", which ultimately propogated to make contributions in neural networks, theory of automata, the theory of computation and cybernetics.
+Their goal was to create a framework that could capture transitions between states—whether in biological organisms, mechanical systems, or computational devices—based on inputs and rules. This effort laid the foundation for developing machines capable of mimicking simple behaviors, solving problems, and processing information,
+hey can be viewed as an early step toward modeling the mechanics of decision-making, a concept that later influenced the development of Artificial Intelligence (AI).
+
+In summary, automata theory bridges the gap between abstract mathematical principles and practical computational systems, shaping how we understand, model, and harness the power of computation.
+From the early mechanical automata that captivated humanity's imagination to the invisible machines that govern modern-day technology, automata have redefined what it means to process information and solve problems. T
+hey have not only laid the groundwork for theoretical computer science but also influenced fields as diverse as artificial intelligence, neural networks, linguistics, and robotics.
+These "invisible machines" shaped our the future of computation, and their legacy continues to inspire new generations of automatas in the future.
