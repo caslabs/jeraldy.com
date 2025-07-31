@@ -32,7 +32,7 @@ const socials = [
 
 // Hardcode your public demo URL here (Hugging Face Space or your hosted Gradio)
 // Example Spaces embed (dark): https://hf.space/embed/<user>/<space>/+?__theme=dark
-const DEMO_URL = "https://7ecaebfb85f02bddaf.gradio.live/";
+const DEMO_URL = "https://xyz.gradio.live/";
 
 export default function HawLMPage() {
   return (
