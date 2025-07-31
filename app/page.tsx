@@ -55,11 +55,13 @@ export default function Home() {
 
 			<div className="my-16 text-center">
 				<h2 className="text-sm text-zinc-500 mx-6">
-					Hi, my name is jeraldy (he/him), I'm an aspiring software engineer who loves to build reliable, scalable, and maintainable systems.
+					Hi, my name is jeraldy (he/him), I'm an aspiring software engineer
 				</h2>
 
+
+
 				<h2 className="text-sm text-zinc-500 mx-6">
-				Student Coordinator + Teaching Assistant @
+				Teaching Assistant @
 					{" "}
 					<Link
 						target="_blank"
@@ -73,24 +75,15 @@ export default function Home() {
 				</h2>
 
 				<h2 className="text-sm text-zinc-500 mx-6">
-				Technical writer @
+				Writer @
 					{" "}
 					<Link
 						target="_blank"
-						href="https://caslabs.ai"
+						href="https://jealous-speedwell-b32.notion.site/caslabs-ai-126516d9bae940cdaa4b71ebc50acab4"
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						caslabs.ai
 					</Link>
-
-					<wbr /> and {" "}
-					<Link
-						target="_blank"
-						href="https://simulacrae.com"
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						simulacrae.com
-					</Link>{" "}
 				</h2>
 
 
